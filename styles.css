@@ -1,0 +1,274 @@
+/*  */
+/* Général */
+/*  */
+
+.container {
+  margin: auto;
+  max-width: 1295px;
+  /* width: 70%; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.dashed {
+  border: dashed #e06e3c;
+  margin-top: 40px;
+  padding: 0 15px 0 15px;
+}
+
+.title {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: large;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.orange {
+  color: #e06e3c;
+}
+
+.blue {
+  color: #3964e8;
+}
+
+.justif {
+  text-align: center;
+  margin: 30px 0 30px;
+}
+/*  */
+/* Section 1 */
+/*  */
+
+.nav {
+  background-color: #3964e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 4px #e06e3c;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+/*  */
+/* Section 2 */
+/*  */
+
+.section2 {
+  display: grid;
+  gap: 52px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.section2card {
+  width: 262px;
+  text-align: center;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: #e06e3c;
+}
+
+.section2card img {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.section2text {
+  text-align: start;
+  margin: 0 10px 0 10px;
+}
+
+.section2plus {
+  margin: 0 30px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2plus a {
+  text-decoration: none;
+}
+
+/*  */
+/* Section 3 */
+/*  */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  margin: 25px 15px 25px 15px;
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery img:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.gallery img:nth-child(8) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.gallery img:nth-child(11) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+/*  */
+/* Section 4 */
+/*  */
+
+.section4 {
+  padding-bottom: 20px;
+}
+
+.section4grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1.9fr;
+  grid-template-rows: 1fr 1.1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.services {
+  border: 4px solid #3a86ff;
+  border-radius: 10px;
+  padding: 20px 20px 0px 20px;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a86ff;
+  cursor: pointer;
+}
+
+.services_hr {
+  border: 4px solid #3a86ff;
+  border-radius: 10px;
+  padding: 20px;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.divhr {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.divhr img
+
+
+.services a {
+  text-decoration: none;
+}
+
+.redbtn {
+  text-decoration: none;
+  color: white;
+  background-color: #ff7070;
+  padding: 5px 40px 5px 40px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.bluebtn {
+  text-decoration: none;
+  color: white;
+  background-color: #3a86ff;
+  padding: 5px 40px 5px 40px;
+  border-radius: 5px;
+}
+
+.btn-container {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+.result-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blueresult {
+  text-decoration: none;
+  color: white;
+  background-color: #3a86ff;
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+/*  */
+/* Section 5 */
+/*  */
+
+.section5 {
+  margin-bottom: 200px;
+}
+
+.section5grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin: 50px 20px 50px 20px;
+}
+
+.divsection5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px solid #3a86ff;
+  border-radius: 10px;
+  padding: 10px;
+  color: #3a86ff;
+}
+
+.greenbtn {
+  text-decoration: none;
+  color: #5cbe7d;
+  background-color: #c4ffd8;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+}
+
+.yellowbtn {
+  text-decoration: none;
+  color: #f1ae00;
+  background-color: #ffeec4;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+}
